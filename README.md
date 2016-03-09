@@ -10,3 +10,6 @@ A quality control tool for high throughput sequence data by Spark.
 p1: path of input file from hdfs e.g. /data/mydata/qcFile.fastq<br>
 p2: uri of hdfsMaster e.g. hdfs://master:9000<br>
 p3: num of file partition  cores*2~3<br>
+
+####how to display the result
+the program will print the statistic results on the driver node console
