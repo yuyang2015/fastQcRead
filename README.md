@@ -2,6 +2,8 @@ fastQcRead
 ===
 A quality control tool for high throughput sequence data by Spark.
 ---
+### Introduction
+input the standard fastq file then it will figure out 6 quota(10%,25%,50%,75%,90%,average-quality-values) for every fastq file column  for Boxplot(Box-whisker Plot)
 ####how to use it
 * download the source code to your workspace (recommend IntelliJ IDEA)
 * build artifacts(jar) e.g. In IDEA you can accomplish it by follow 4 steps:<br> `①Bulid->②Build Artifacts->③fastQcRead->④Build`
