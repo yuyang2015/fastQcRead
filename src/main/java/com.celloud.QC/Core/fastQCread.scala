@@ -17,11 +17,11 @@ object fastQCread {
 
   /**
    * @author yuyang
-   * @since 20160309
+   * @since 20160310
    * @note fastQCread
    * @param hdfsUri -> the uri of hdfsMaster e.g. hdfs://master:9000
-   * @param path -> path for input file from hdfs e.g. /data/mydata/qcFile.fastq
-   * @param numPartition -> num for file partition  cores*2~3
+   * @param path -> path of input file from hdfs e.g. /data/mydata/qcFile.fastq
+   * @param numPartition -> num of file partition  cores*2~3
    * @return void -> print the 6 qcRead quota(10%,25%,50%,75%,90%,average-quality-values) of every column for Boxplot(Box-whisker Plot) e.g. 42,42,42,42,32,39
    */
   def fastQCread(path : String, hdfsUri : String , numPartition : Int): Unit = {
