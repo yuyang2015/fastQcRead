@@ -26,3 +26,7 @@ the program will print the statistic results on the driver node console like<br>
 　`42,42,42,42,42,41`<br>
 　`...`<br>
 you can also design your own outputformat by modify the source code
+
+<br>
+####defect
+due to the imperfection of code,every hadoop block(128m) will drop one record.
