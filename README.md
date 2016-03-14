@@ -1,4 +1,4 @@
-fastQcRead
+fastQcRead v0.3.1
 ===
 A quality control tool for high throughput sequence data by Spark.
 ---
