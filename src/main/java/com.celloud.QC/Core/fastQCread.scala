@@ -25,7 +25,7 @@ object fastQCread {
    * @return void -> print the 6 qcRead quota(10%,25%,50%,75%,90%,average-quality-values) of every column for Boxplot(Box-whisker Plot) e.g. 42,42,42,42,32,39
    */
   def fastQCread(path : String, hdfsUri : String , numPartition : Int): Unit = {
-    val name = "fastQcReadV1.7.5"
+    val name = "fastQcReadV0.3.1"
     val sc = new SparkContext(new SparkConf().setAppName(name))
     val file = sc.newAPIHadoopFile[Text, Text, qcInputFormat](hdfsUri + path)
     val standCoreChar = fastQCUtil.getStandardScore(file)
